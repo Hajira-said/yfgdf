@@ -4,7 +4,7 @@ class Transaction{
 
   private $connexion;
 
-        public function s__construct(){
+        public function __construct(){
             $this->connexion=new DatabaseConnection();
            
         }

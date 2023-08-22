@@ -9,7 +9,7 @@ class TransactionController{
     public  function __construct(){
       $this->trans=new Transactions ();
     }
-    public function Adds($donnees){
+    public function Add($donnees){
         $this->trans->Add($donnees);
     }
 

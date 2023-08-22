@@ -10,7 +10,7 @@ class DatabaseConnection {
         }
     }
 
-    public function exeute($query) {
+    public function execute($query) {
         $result = $this->conn->query($query);
         if (!$result) {
             die("Erreur d'exécution de la requête : " . $this->conn->error);
